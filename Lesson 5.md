@@ -1,5 +1,5 @@
-### Learn-python-the-hard-way
-#### Lesson 5
+## Learn-python-the-hard-way
+### Lesson 5
 #### More variables and printing
 本章依旧是讨论变量，不过增加如何把文本和变量结合。注意：文本是为了人阅读而用的。  
 代码示例：  
