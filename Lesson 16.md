@@ -10,9 +10,9 @@
 3 课后练习
   - 如何一次性输入
     课本重写文件时，有3行文本，输入了6次，一次性输入的办法就是把文本合并，如下：  
-    ```
+ ```
     context = line1 +"\n"+line2+"\n"+line3
     target.write(context)
-    ```
+ ```
   - 如果write重写之后，还需要truncate先期清除文件吗
     代码移除truncate之后，确实没有区别，write的内容自动替代了文本原内容。
