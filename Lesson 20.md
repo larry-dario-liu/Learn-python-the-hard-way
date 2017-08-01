@@ -5,9 +5,9 @@
 - readline()
   方法用于从文件读取整行，包括 "\n" 字符，括号内空值时默认整行，  
   有>=0的整数时，就规定了读取的最大字长，规定字长比文件大，就用空格填充。
-  ```
-  print open(filename).readline()
-  ```
+```
+print open(filename).readline()
+```
   readline是从当前指针初开始的一行读取，这也是教材立体的核心原理，作者调  
   用了3次ReadLine就读取了三行。但是我自己把代码简化，去掉f=open(filename),
   直接用三个print open(filename).readline就重复读取了第一行，这是因为  
