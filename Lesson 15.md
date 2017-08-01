@@ -20,8 +20,14 @@ print 变量
 <open file 'ex15_sample.txt',mode 'r' at 0x005FD1D8>  
 不用read函数的情况下，打印出来的只是变量的执行open的这个过。但是*不清楚mode 'r'的意思*。
 注意:作者提到了hard coding，简单讲就是事前直接输入参数或文本，而不是在运行过程中产生  
-（比如从外部文件读取、代码运行内部生成），俗称硬编码，硬编码适用性比较差。  
-3 课后思考
+（比如从外部文件读取、代码运行内部生成），俗称硬编码，硬编码适用性比较差。
+3 简化
+  open和read可以连在一起写，从而简化代码，如下：
+```
+printext=open(filename).read()
+print printext
+```
+4 课后思考
   - 此例中，用argv和raw_input()哪个更好？  
     仅就本例来说，真看不出来。  
   - 跑pydoc了解read函数
