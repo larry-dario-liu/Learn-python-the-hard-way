@@ -19,5 +19,6 @@ def pluss(x,y):
 def sq(x):
 	return x*x
 print pluss(sq(3),sq(4))
-```
 >>25
+```
+
