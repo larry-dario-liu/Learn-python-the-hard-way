@@ -1,5 +1,5 @@
 ## Learn-python-the-hard-way
-### Lesson 6\7\8\9
+### Lesson 6-9
 #### string and text
 这几节其实是文本与变量的深化练习，格式符、变量、文本之间可以做各种嵌套。
 - 文本之间用加号"+",可以之间连接输出，类似VBA的"&"的功能。  
