@@ -15,5 +15,5 @@ print "There are",cars,"cars available"
 print "There are" + cars + "cars available"
 ```  
 Python两种连接符区别：  
-1 用```+```时，收尾相连没有空格，用```,```则会有空格。  
+1 用```+```时，首尾相连没有空格，用```,```则会有空格。  
 2 只有用```+```才能赋值给新的变量，而```,```不行，我理解Python只把```+```当做运算符。
