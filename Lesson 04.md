@@ -10,8 +10,11 @@
 变量与VBA的2个区别：  
 1）VBA中，变量需要在使用前被定义为具体的数据类型，然后才能使用，但是Python不需要定义这个步骤，直接赋值即可；  
 2）VBA中，实现两个数据的连接，需要在中间加```&```才能作为一个语句整体打印，而Python用逗号```,```即可（如果都是文本也可以用```+```），如：  
-```print "There are",cars,"cars available"
-print "There are" + cars + "cars available"```
+```
+print "There are",cars,"cars available"
+print "There are" + cars + "cars available"
+```
+
 Python两种连接符区别：  
-1 用```+```时，首尾相连没有空格，用```,```则会有空格。  
+1 用```+```时，首尾相连没有空格，用```,```则会有空格。     
 2 只有用```+```才能赋值给新的变量，而```,```不行，我理解Python只把```+```当做运算符。
