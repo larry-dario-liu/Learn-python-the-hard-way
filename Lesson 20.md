@@ -10,11 +10,11 @@ print open(filename).readline()
 ```
   readline是从当前指针初开始的一行读取，这也是教材立体的核心原理，作者调  
   用了3次ReadLine就读取了三行。但是我自己把代码简化，去掉f=open(filename),
-  直接用三个print open(filename).readline就重复读取了第一行，这是因为  
-  每次都重新打开了文件，从第一行开始。
+  直接用三个```print open(filename).readline```就重复读取了第一行，这是  
+  因为每次都重新打开了文件，从第一行开始。
  - seek  
    调整指针的位置，如何把教材的seek(0)函数去掉，则readline都是空值，因为  
-   在ReadLine运行前，文件指针已经在文件末尾了，此时ReadLine对象是空值，读取  
+   在ReadLine运行前，文件指针已经在文件末尾了，此时ReadLine对象是空值，读取  
    的结果自然无效。
  #### 总结：  
  一定要对代码进行这种肢解、折腾才能更清晰了理解含义。
