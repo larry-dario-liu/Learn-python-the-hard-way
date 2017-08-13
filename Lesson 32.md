@@ -7,7 +7,7 @@ listname=[元素1,元素2,元素3,...]
 ```
 for item in listname:
     依次对list的元素执行运算
-```  
+```
 注意:for行以冒号结尾.  
 - append()方法  
 ```
