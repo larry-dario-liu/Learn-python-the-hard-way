@@ -14,6 +14,6 @@ for item in listname:
 list.append(object)
 ```
 把object添加到list的结尾，list可为空，但是一定要实现声明。
-- range()函数  
+- range()函数  
 range() 函数可创建一个整数列表，一般用在 for 循环中。  
 range(start, end, [step])从start开始，以end的前一个步长结束，不含end,step步长可选默认为1.
