@@ -19,4 +19,3 @@ list.append(object)
 range()函数可创建一个整数列表，一般用在 for 循环中。  
 range(start, end, [step])从start开始，以end的前一个步长结束，不含end,step步长可选默认为1.  
 range()函数可以直接赋值给list,```listname=range(start,end)```
-#### 思考  
