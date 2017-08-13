@@ -1,7 +1,7 @@
 ## Learn-python-the-hard-way
 ### Lesson 32
 #### list列表和for循环
-- list的语法  
+- list的语法  
 listname=[元素1,元素2,元素3,...]  
 - for循环语句  
 ```
