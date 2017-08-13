@@ -1,5 +1,5 @@
 ## Learn-python-the-hard-way
-### Lesson 27-30  
+### Lesson 27-31  
 #### 逻辑运算  
   if条件语句，语法如下:  
   ```
