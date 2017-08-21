@@ -15,7 +15,7 @@ dict={键1：项1，键2：项2....键n:项n}
 - 删除字典del dict
 - 清空dict.clear（）
 - 返回指定值dict.get(键)
-- 判断键存在dict.has_key(键) *同VBA dict.exists(键)*   
+- 判断键存在dict.has_key(键) *同VBA dict.exists(键)* python3没用has_key了
 - 返回所有键dict.keys() *同VBA* 
 - 返回所有值dict.values()*VBA是dict.items*
 - 返回所有键值数组dict.items()
